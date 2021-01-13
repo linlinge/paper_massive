@@ -42,7 +42,7 @@ enum MODE{POSITION,POSITION_NORMAL,POSITION_NORMAL_COLOR,POSITION_NORMAL_COLORA,
 class PlyParsing
 {
     private:
-        FILE* f;
+        FILE* fp;
         /* header parsing paramters */
         int length_of_header;
         char char_header[1000];

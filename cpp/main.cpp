@@ -31,7 +31,7 @@ int main(int argc,char** argv)
 	// }
 	// fin.close();
 
-	string filepath="/home/llg/dataset_upholstery/0_raw/luming.ply";
+	string filepath=argv[1];
 	PlyParsing pps;	
 	pps.PrintHeader(filepath);
 	pps.LoadPly(filepath);
